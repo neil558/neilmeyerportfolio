@@ -1,0 +1,486 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- BOOTSTRAP 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+  <!-- LOCAL STYLE SHEET -->
+  <link rel="stylesheet" href="CSS/styles.css">
+
+  <!-- FAVICON STYLES -->
+  <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+  <link rel="icon" href="favicon-16x16.png" type="image/x-icon">
+
+  <!-- VIEWBOX STYLE SHEET -->
+  <link rel="stylesheet" href="CSS/viewbox.css">
+
+  <!-- FLOATING-TO-TOP BUTTON CSS -->
+  <link rel="stylesheet" href="CSS/totop-button.min.css">
+
+  <!-- VARIOUS GOOGLE FONTS CDN'S -->
+
+  <!-- GIRASSOL FONT -->
+  <!-- https://fonts.google.com/specimen/Girassol -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+
+  <!-- ITIM FONT -->
+  <!-- https://fonts.google.com/specimen/Itim -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+  <title>Neil's Template</title>
+</head>
+
+<body id="main" class="main">
+
+  <!-- NAVBAR -->
+  <nav id="top-content" class="navbar fixed-top navbar-dark navbar-expand-md navbar-no-bg scroll-spy">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#main">
+        <img src="logo.svg" height="50" width="50" class="col-brown" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"> </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link scroll-link active font-girassol" aria-current="page" href="#main">Top</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll-link font-girassol" href="#employees">Employees</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll-link font-girassol" href="#partners">Partners</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll-link font-girassol" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll-link font-girassol" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-search font-girassol" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- END OF NAVBAR -->
+  <main>
+    <!-- START OF CAROUSEL -->
+    <div id="mainCarousel" class="carousel slide carousel-fade container-fluid.scrollable" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/slider/bg-1.jpg" class="d-block w-100" alt="Slider-Picture-02">
+          <class class="carousel-caption">
+            <div class="px-4 py-5 my-5 text-center">
+              <img class="d-block mx-auto mb-4 col-light" src="logo.svg" alt="" width="72" height="57">
+              <h1 class="display-5 font-girassol col-light text-uppercase">Hero Section</h1>
+              <div class="col-lg-6 mx-auto d-none d-lg-block">
+                <p class="lead mb-4 font-itim col-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deserunt quos
+                  aspernatur sint consectetur explicabo eius at? Quasi, et. Id mollitia sint quasi optio tempore eos
+                  soluta expedita quas, reprehenderit vitae!</p>
+                <h1 class="visually-hidden">Heroes examples</h1>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                  <button type="button" class="btn btn-primary btn-lg px-4 gap-3 font-itim">Button 1</button>
+                  <button type="button" class="btn btn-danger btn-lg px-4 font-itim">Button 2</button>
+                </div>
+              </div>
+            </div>
+          </class>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider/bg-2.jpg" class="d-block w-100" alt="Slider-Picture-02">
+          <class class="carousel-caption">
+            <div class="px-4 py-5 my-5 text-center">
+              <img class="d-block mx-auto mb-4" src="logo.svg" alt="" width="72" height="57">
+              <h1 class="display-5 font-girassol col-light text-uppercase">Hero Section</h1>
+              <div class="col-lg-6 mx-auto d-none d-lg-block">
+                <p class="lead mb-4 font-itim col-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                  accusamus
+                  excepturi? Deserunt et assumenda cum autem nisi cumque quaerat aliquid, commodi laudantium explicabo!
+                  Voluptatibus, tenetur rem accusantium quidem deleniti incidunt?</p>
+                <h1 class="visually-hidden">Heroes examples</h1>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                  <button type="button" class="btn btn-primary btn-lg px-4 gap-3 font-itim">Button 1</button>
+                  <button type="button" class="btn btn-danger btn-lg px-4 font-itim">Button 2</button>
+                </div>
+              </div>
+            </div>
+          </class>
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider/bg-3.jpg" class="d-block w-100" alt="Slider-Picture-02">
+          <class class="carousel-caption">
+            <div class="px-4 py-5 my-5 text-center">
+              <img class="d-block mx-auto mb-4" src="logo.svg" alt="" width="72" height="57">
+              <h1 class="display-5 font-girassol col-light text-uppercase">Hero Section</h1>
+              <div class="col-lg-6 mx-auto d-none d-lg-block">
+                <p class="lead mb-4 font-itim col-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Exercitationem
+                  rem id sint fuga dolores optio excepturi neque. Sunt, aperiam saepe assumenda id sit ea unde eius
+                  reprehenderit. Nisi, rerum labore..</p>
+                <h1 class="visually-hidden font-itim">Hero Section</h1>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                  <button type="button" class="btn btn-primary btn-lg px-4 gap-3 font-itim">Button 1</button>
+                  <button type="button" class="btn btn-danger btn-lg px-4 font-itim">Button 2</button>
+                </div>
+              </div>
+            </div>
+          </class>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- END OF CAROUSEL -->
+    <!-- START OF OUR EMPLOYEES SECTION -->
+    <section id="employees" name="employees" class="p-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center text-uppercase p-2">
+            <h2 class="font-girassol col-samon p-3">Our Employees</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col p-2">
+            <a href="img/employees/person_1.jpg" class="thumbnail" title="Add Caption Here">
+              <img src="img/employees/person_1.jpg" class="rounded" alt="">
+            </a>
+          </div>
+          <div class="col p-2 text-center">
+            <a tabindex="0" class="btn btn-primary btn-lg px-4 font-itim" role="button" data-bs-toggle="popover"
+              data-bs-trigger="focus" title="BIO" data-bs-content="Lorem, ipsum dolor sit amet consectetur 
+        adipisicing elit. Inventore maiores quidem mollitia, aspernatur magnam ab eius tempore hic ipsa quos 
+        impedit quas eum unde incidunt fuga cupiditate. Perferendis, magni maiores">BIO</a>
+            <p class="font-itim col-brown d-none d-lg-block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore maiores
+              quidem mollitia,
+              aspernatur magnam ab eius tempore hic ipsa quos impedit quas eum unde incidunt fuga
+              cupiditate. Perferendis, magni maiores.</p>
+          </div>
+          <div class="col p-2">
+            <a href="img/employees/person_2.jpg" class="thumbnail" title="Add Caption Here">
+              <img src="img/employees/person_2.jpg" class="rounded" alt="">
+            </a>
+          </div>
+          <div class="col p-2 text-center">
+            <a tabindex="0" class="btn btn-primary btn-lg px-4 font-itim" role="button" data-bs-toggle="popover"
+              data-bs-trigger="focus" title="BIO" data-bs-content="Lorem, ipsum dolor sit amet consectetur 
+        adipisicing elit. Inventore maiores quidem mollitia, aspernatur magnam ab eius tempore hic ipsa quos 
+        impedit quas eum unde incidunt fuga cupiditate. Perferendis, magni maiores">BIO</a>
+            <p class="font-itim col-brown d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi at,
+              quibusdam odit
+              porro asperiores nulla quo optio id cumque doloremque perspiciatis molestias itaque vel
+              dignissimos ex cupiditate ullam ipsum.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col p-2">
+            <a href="img/employees/person_3.jpg" class="thumbnail" title="Add Caption Here">
+              <img src="img/employees/person_3.jpg" class="rounded" alt="">
+            </a>
+          </div>
+          <div class="col p-2 text-center">
+            <p class="font-itim col-brown d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto molestias
+              iure, ab,
+              deserunt iste eius dolore laboriosam, soluta eveniet aliquam commodi quo? Placeat omnis
+              ad, molestiae animi quas accusamus cupiditate.</p>
+            <a tabindex="0" class="btn btn-primary btn-lg px-4 font-itim" role="button" data-bs-toggle="popover"
+              data-bs-trigger="focus" title="BIO" data-bs-content="Lorem, ipsum dolor sit amet consectetur 
+            adipisicing elit. Inventore maiores quidem mollitia, aspernatur magnam ab eius tempore hic ipsa quos 
+            impedit quas eum unde incidunt fuga cupiditate. Perferendis, magni maiores">BIO</a>
+          </div>
+          <div class="col p-2">
+            <a href="img/employees/person_4.jpg" class="thumbnail" title="Add Caption Here">
+              <img src="img/employees/person_4.jpg" class="rounded" alt="">
+            </a>
+          </div>
+          <div class="col p-2 text-center">
+            <p class="font-itim col-brown d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dolores
+              corporis tempora error
+              ipsum voluptas. Ipsa aliquid voluptatibus ipsam repellendus, doloremque voluptates. Earum
+              autem ut optio fuga provident qui perspiciatis.</p>
+            <a tabindex="0" class="btn btn-primary btn-lg px-4 font-itim" role="button" data-bs-toggle="popover"
+              data-bs-trigger="focus" title="BIO" data-bs-content="Lorem, ipsum dolor sit amet consectetur 
+            adipisicing elit. Inventore maiores quidem mollitia, aspernatur magnam ab eius tempore hic ipsa quos 
+            impedit quas eum unde incidunt fuga cupiditate. Perferendis, magni maiores">BIO</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- START OF PARTNERS PARALLAX -->
+    <section id="partners-parallax">
+      <div class="parallax-partners"></div>
+    </section>
+    <!-- END OF PARTNERS PARALLAX -->
+    <!-- START OF PARTNERS CAROUSEL -->
+    <section id="partners" name="partners">
+      <div class="container">
+        <div class="row">
+          <div class="col pt-5">
+            <h2 class="text-center text-uppercase font-girassol col-teal">Our Partners</h2>
+          </div>
+        </div>
+      </div>
+      <div id="partnersCarousel" class="carousel slide p-2" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active"><img src="img/partners/partners1.png" class="d-block w-100"
+              alt="Slider-Picture-01"></div>
+          <div class="carousel-item"><img src="img/partners/partners2.png" class="d-block w-100"
+              alt="Slider-Picture-02"></div>
+          <div class="carousel-item"><img src="img/partners/partners3.png" class="d-block w-100"
+              alt="Slider-Picture-02"></div>
+          <div class="carousel-item"><img src="img/partners/partners4.png" class="d-block w-100"
+              alt="Slider-Picture-02"></div>
+          <div class="carousel-item"><img src="img/partners/partners5.png" class="d-block w-100"
+              alt="Slider-Picture-02"></div>
+          <div class="carousel-item"><img src="img/partners/partners6.png" class="d-block w-100"
+              alt="Slider-Picture-02"></div>
+          <div class="carousel-item"><img src="img/partners/partners7.png" class="d-block w-100"
+              alt="Slider-Picture-02"></div>
+          <div class="carousel-item"><img src="img/partners/partners8.png" class="d-block w-100"
+              alt="Slider-Picture-02"></div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF PARTNERS CAROUSEL -->
+    <!-- START OF WORK PARALLAX -->
+    <section id="work-parallax">
+      <div class="parallax-work"></div>
+    </section>
+    <!-- END OF WORK PARALAX -->
+    <!-- START OF WORK SECTION -->
+    <section id="work" name="work">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center text-uppercase font-girassol col-brown p-2 mt-2">Our work</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col p-3">
+            <div class="card p-3 background-color " style="width: 18rem;">
+              <a href="img/works/work1.jpg" class="thumbnail" title="Add Caption Here">
+                <img src="img/works/work1.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body ">
+                <p class="card-text font-itim col-brown d-none d-lg-block">Some quick example text to build on the card title and make up
+                  the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div class="card p-3 background-color " style="width: 18rem;">
+              <a href="img/works/work2.jpg" class="thumbnail" title="Add Caption Here">
+                <img src="img/works/work2.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <p class="card-text font-itim col-brown d-none d-lg-block">Some quick example text to build on the card title and make up
+                  the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div class="card p-3 background-color " style="width: 18rem;">
+              <a href="img/works/work3.jpg" class="thumbnail" title="Add Caption Here">
+                <img src="img/works/work3.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <p class="card-text font-itim col-brown d-none d-lg-block">Some quick example text to build on the card title and make up
+                  the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col p-3">
+            <div class="card p-3 background-color " style="width: 18rem;">
+              <a href="img/works/work4.jpg" class="thumbnail" title="Add Caption Here">
+                <img src="img/works/work4.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <p class="card-text font-itim col-brown d-none d-lg-block">Some quick example text to build on the card title and make up
+                  the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div class="card p-3 background-color " style="width: 18rem;">
+              <a href="img/works/work5.jpg" class="thumbnail" title="Add Caption Here">
+                <img src="img/works/work5.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body ">
+                <p class="card-text font-itim col-brown d-none d-lg-block">Some quick example text to build on the card title and make up
+                  the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div class="card p-3 background-color " style="width: 18rem;">
+              <a href="img/works/work6.jpg" class="thumbnail" title="Add Caption Here">
+                <img src="img/works/work6.jpg" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body ">
+                <p class="card-text font-itim col-brown d-none d-lg-block">Some quick example text to build on the card title and make up
+                  the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF WORK SECTION -->
+    <!-- CONTACT US SECTION -->
+    <section id="contact" class="p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center text-uppercase p-4 font-girassol">contact us</h2>
+          </div>
+        </div>
+      </div>
+      <form class="font-girassol" id="contact-form" method="post" action="contact.php" role="form">
+        <div class="messages"></div>
+        <div class="controls">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_name">Firstname *</label>
+                <input id="form_name" type="text" name="name" class="form-control"
+                  placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_lastname">Lastname *</label>
+                <input id="form_lastname" type="text" name="surname" class="form-control"
+                  placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_email">Email *</label>
+                <input id="form_email" type="email" name="email" class="form-control"
+                  placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="form_need">Please specify your need *</label>
+                <select id="form_need" name="need" class="form-control" required="required"
+                  data-error="Please specify your need.">
+                  <option value=""></option>
+                  <option value="Request quotation">Request quotation</option>
+                  <option value="Request order status">Request order status</option>
+                  <option value="Request copy of an invoice">Request copy of an invoice</option>
+                  <option value="Other">Other</option>
+                </select>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_message">Message *</label>
+                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4"
+                  required="required" data-error="Please, leave us a message."></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <input type="submit" class="btn btn-success btn-send m-2" value="Send message">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="text-muted">
+                <strong class="col-black">* These fields are required. </strong> </p>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+    <footer class="text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section id="footer-01" class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-floating m-1" href="#!" role="button"><img
+              src="img/icons/01-flat social media icons/72/facebook.png" alt="" srcset=""></a>
+
+          <!-- Twitter -->
+          <a class="btn btn-floating m-1" href="#!" role="button"><img
+              src="img/icons/01-flat social media icons/72/twitter2.png" alt="" srcset=""></a>
+
+          <!-- Google -->
+          <a class="btn btn-floating m-1" href="#!" role="button"><img
+              src="img/icons/01-flat social media icons/72/google plus.png" alt="" srcset=""></a>
+
+          <!-- Instagram -->
+          <a class="btn btn-floating m-1" href="#!" role="button"><img
+              src="img/icons/01-flat social media icons/72/instagram.png" alt=""></a>
+
+          <!-- Linkedin -->
+          <a class="btn btn-floating m-1" href="#!" role="button"><img
+              src="img/icons/01-flat social media icons/72/linkdin.png" alt=""></a>
+          <!-- Github -->
+          <a class="btn btn-floating m-1" href="#!" role="button"><img
+              src="img/icons/01-flat social media icons/72/github.png" alt="" srcset=""></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3 font-itim" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright: Neil Meyer Designs
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <!-- END OF CONTACT US SECTION -->
+
+    <!-- VARIOUS JS DEPENDICIES AND CDN'S -->
+    <!-- JQUERY JS CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP5 JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+    <!-- VIEWBOX JS -->
+    <script src="JS/viewbox.min.js"></script>
+    <!-- FLOAT-TO-TOP BUTTON JS -->
+    <script src="JS/totop-button.min.js"></script>
+    <!-- SCROLLSPY JS -->
+    <script src="JS/scrollspy.js"></script>
+    <!-- CUSTOM JS -->
+    <script src="JS/custom.js"></script>
+</body>
+
+</html>

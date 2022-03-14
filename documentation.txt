@@ -1,0 +1,28 @@
+1) THE IMAGES
+
+This template comes with a selection of open-source social-media icons. Only the folder called 01-flat social media icons
+have icons that are auctually used in the template. The others are just there to add a little bit of value to the template.
+If you are happy with the social-media icons as used in the theme be sure to delete the other 5 folders before you upload 
+to a web-server. These icons can be found in the img/icons folder. All the relevant license information about these icons 
+can be found in these folders.
+
+The logo is from a website called Logodust - https://logodust.com/
+
+2) DEPENDENCIES
+
+The template uses the latest version of Jquery and Bootstrap. It uses Girassol and Itim web fonts as provided by Google.
+It uses various Jquery plugins all of which are located in the plugins folder. These plugins license information
+can be found there.  
+
+Further information about the fonts can be found here.
+
+https://fonts.google.com/specimen/Girassol
+https://fonts.google.com/specimen/Itim
+
+3) The template is fully mobile responsive it is visually appealling. It has proper comments explaining the code. The code
+   is indented by the beautify plugin for the visual studio code IDE and uses the camel case naming convention.
+
+4) Lastly, if you have bought this plugin trough ThemeForest then all support issues need to be handled trough there web
+   site. If you want to contact me for any other reason my email is: neilmeyerdev@gmail.com. If you want any web develop-
+   ment work I'm open to offers. I'm also active on stack exchange my profile can be found here - 
+   https://music.stackexchange.com/users/7306/neil-meyer so feel free to contact me if you want.

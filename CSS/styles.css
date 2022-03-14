@@ -1,0 +1,220 @@
+/* Base body classes */
+
+html, body {
+  height: 100%; 
+}
+
+a { 
+  text-decoration: none; 
+}
+
+.background-color { 
+  background-color: #F3C178; 
+}
+
+.navbar-offset {
+
+/*Offsets the top navbar 37px from the top of the viewport*/
+  top: 37px; 
+}
+.container-fluid.scrollable {
+
+/*Sets the scrollable area to 100% of the viewport*/
+  height: 100%; 
+
+/*Allows the scrollable area to have a scrollbar based on the height of its content*/
+  overflow: auto; 
+  background: #ccc;
+}
+
+/* Classes for various Google Fonts */
+
+.font-girassol  { font-family: 'Girassol', cursive; }
+.font-itim      { font-family: 'Itim', cursive; }
+
+/* Base Color classes */
+
+.col-black  { color: black; }
+.col-white  { color: white; }
+.col-brown  { color: #0B0500; }
+.col-teal   { color: #2a9d8f; }
+.col-samon  { color: #e76f51; }
+.col-light  { color: #ffe8d6;}
+
+/* Base button classes */
+
+.btn-search {
+  background-color: #8ecae6 ;
+}
+.btn-search:hover {
+  background-color: #219ebc;
+}
+.btn-primary  {
+  background-color: #8ecae6 ;
+  text-transform: uppercase;
+}
+.btn-primary:hover {
+  background-color: #219ebc;
+}
+.btn-danger {
+  background-color: #b5838d;
+  text-transform: uppercase;
+}
+.btn-danger:hover {
+  background-color: #e63946;
+}
+
+/* Styles for the placeholder text of the input element */
+
+input::placeholder { font-family: 'Girassol', cursive; }
+
+/* Carousel Styles */
+
+#mainCarousel { 
+  margin-top: 0.45 rem; 
+}
+
+#mainCarousel img {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+/* Navbar styles */
+
+.navbar {
+  background: #444;
+  -o-transition: all .6s;
+  -moz-transition: all .6s;
+  -webkit-transition: all .6s;
+  -ms-transition: all .6s;
+  transition: all .6s;
+  backface-visibility: hidden;
+
+}
+
+.navbar.navbar-no-bg {
+  background: #444;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-dark .navbarSupportedContent {
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar-dark .navbarSupportedContent .nav-link {
+  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
+  border: 0;
+}
+
+.navbar-dark .navbarSupportedContent .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-dark .navbarSupportedContent .nav-link:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.navbar-expand-md .navbarSupportedContent .nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar-brand {
+  background-color: darkslategray;
+  border-radius: 25px;
+}
+
+.navbar ul li a.active {
+  background-color:#222;
+  color:white;
+}
+
+
+/* Employees Section Styles */
+
+#employees {
+    background-color: #2a9d8f;
+}
+
+/* Partner Section Styles */
+
+#partners { background-color: #0B0500; }
+
+#partnersCarousel { margin-top: 0.45 rem; }
+
+#partnersCarousel img {
+    width: 40%;
+    height: 40% !important;
+    object-fit: contain;
+}
+
+
+/* Work styles */
+
+#work {
+  background-color: #2a9d8f;
+}
+
+/* Contact Us Styles */
+
+#contact {
+  background-color: #2a9d8f;
+}
+
+footer {
+  background-color: #2a9d8f;
+}
+
+
+/* This is the CSS for the paralax effect */
+/* The code is repeated for each time the effect is used */
+
+.parallax-work {
+
+    /* The image used */
+    background-image: url("../img/work-bg.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-about {
+    
+    /* The image used */
+    background-image: url("../img/about-bg.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-partners {
+    
+    /* The image used */
+    background-image: url("../img/partners-bg.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
